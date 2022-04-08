@@ -16,7 +16,6 @@
   },
   "go.toolsManagement.autoUpdate": true,
   "typescript.tsdk": "/usr/local/lib/node_modules/typescript/lib",
-  "editor.tabSize": 2,
   "editor.detectIndentation": false,
   "editor.formatOnSave": true,
   "[typescriptreact]": {
