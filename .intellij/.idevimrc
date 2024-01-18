@@ -45,7 +45,9 @@ set argtextobj
 set textobj-entire
 
 
-nnoremap <Leader>a ggVG"+y
+" nnoremap <Leader>a ggVG"+y
+" nnoremap <Leader>a :<C-u>action $SelectAll<CR>:<C-u>action EditorCopy<CR><Esc>
+nnoremap <Leader>a :<C-u>action $SelectAll<CR>:<C-u>action EditorCopy<CR>
 nnoremap <Leader>u <C-r>
 nnoremap <Leader>p "0p
 nnoremap <Space> <Nop>
@@ -60,6 +62,7 @@ nnoremap <Leader>k :<C-u>action ShowHoverInfo<CR>
 nnoremap gi :<C-u>action GotoImplementation<CR>
 nnoremap [g :<C-u>action VcsShowPrevChangeMarker<CR>
 nnoremap ]g :<C-u>action VcsShowNextChangeMarker<CR>
+nnoremap ga :<C-u>action ShowIntentionActions<CR>
 
 inoremap <C-f> <C-r>
 inoremap <Home> <C-o>^
