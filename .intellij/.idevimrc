@@ -16,22 +16,25 @@ set hlsearch
 nnoremap <Esc><Esc> :nohlsearch<CR><ESC>
 set ignorecase
 set smartcase
-" set showmatch matchtime=1
-" set showmatcH
 set WHICHWrap=b,s,h,l,<,>,[,],~
 set showcmd
 set number relativenumber
+set autoindent
 
 " Don't use Ex mode, use Q for formatting.
 map Q gq
 
-set easymotion
 let mapleader = "\<space>"
+set easymotion
+
 map <leader>s <Plug>(easymotion-bd-f2)
 map s <Plug>(easymotion-bd-f2)
 map <Leader>l <Plug>(easymotion-bd-jk)
 
 Plug 'machakann/vim-highlightedyank'
+let g:highlightedyank_highlight_duration = "200"
+let g:highlightedyank_highlight_color = "rgba(0, 240, 170, 155)"
+
 Plug 'tpope/vim-commentary'
 set keep-english-in-normal
 set nrformats=
@@ -41,18 +44,26 @@ set surround
 set argtextobj
 set textobj-entire
 
+
 nnoremap <Leader>a ggVG"+y
 nnoremap <Leader>u <C-r>
-nnoremap <Leader>p "0P
+nnoremap <Leader>p "0p
 nnoremap <Space> <Nop>
 nnoremap <C-o> :<C-u>action Back<CR>
 nnoremap <C-i> :<C-u>action Forward<CR>
 nnoremap cre :<C-u>action RenameElement<CR>
 nnoremap <Home> ^
+nnoremap y "+y
+nnoremap Y y$
 nnoremap x "_x
+nnoremap <Leader>k :<C-u>action ShowHoverInfo<CR>
+nnoremap gi :<C-u>action GotoImplementation<CR>
+nnoremap [g :<C-u>action VcsShowPrevChangeMarker<CR>
+nnoremap ]g :<C-u>action VcsShowNextChangeMarker<CR>
 
-inoremap <C-;> <Esc>
 inoremap <C-f> <C-r>
 inoremap <Home> <C-o>^
 
+vnoremap y "+y
 vnoremap <Home> ^
+vnoremap x "_x
