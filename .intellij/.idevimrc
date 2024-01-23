@@ -42,8 +42,6 @@ set nrformats=
 Plug 'vim-matchit'
 set surround
 set argtextobj
-set textobj-entire
-
 
 " nnoremap <Leader>a ggVG"+y
 " nnoremap <Leader>a :<C-u>action $SelectAll<CR>:<C-u>action EditorCopy<CR><Esc>
