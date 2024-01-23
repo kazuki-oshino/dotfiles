@@ -43,8 +43,6 @@ Plug 'vim-matchit'
 set surround
 set argtextobj
 
-" nnoremap <Leader>a ggVG"+y
-" nnoremap <Leader>a :<C-u>action $SelectAll<CR>:<C-u>action EditorCopy<CR><Esc>
 nnoremap <Leader>a :<C-u>action $SelectAll<CR>:<C-u>action EditorCopy<CR>
 nnoremap <Leader>u <C-r>
 nnoremap <Leader>p "0p
@@ -53,8 +51,6 @@ nnoremap <C-o> :<C-u>action Back<CR>
 nnoremap <C-i> :<C-u>action Forward<CR>
 nnoremap cre :<C-u>action RenameElement<CR>
 nnoremap <Home> ^
-nnoremap y "+y
-nnoremap Y y$
 nnoremap x "_x
 nnoremap <Leader>k :<C-u>action ShowHoverInfo<CR>
 nnoremap gi :<C-u>action GotoImplementation<CR>
