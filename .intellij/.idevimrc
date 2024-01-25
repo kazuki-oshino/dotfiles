@@ -39,9 +39,10 @@ Plug 'vim-matchit'
 set surround
 set argtextobj
 
-nnoremap <Leader>a :<C-u>action $SelectAll<CR>:<C-u>action EditorCopy<CR>
+nnoremap <Leader>a :<C-u>action $SelectAll<CR>:<C-u>action EditorCopy<CR><ESC>
 nnoremap <Leader>u <C-r>
 nnoremap <Leader>p "0p
+nnoremap <Leader>P "0P
 nnoremap <Space> <Nop>
 nnoremap <C-o> :<C-u>action Back<CR>
 nnoremap <C-i> :<C-u>action Forward<CR>
@@ -54,9 +55,13 @@ nnoremap gt :<C-u>action GotoTypeDeclaration<CR>
 nnoremap [g :<C-u>action VcsShowPrevChangeMarker<CR>
 nnoremap ]g :<C-u>action VcsShowNextChangeMarker<CR>
 nnoremap ga :<C-u>action ShowIntentionActions<CR>
+nnoremap gj :<C-u>action ActivateTerminalToolWindow<CR>
 
 inoremap <C-f> <C-r>
 inoremap <Home> <C-o>^
 
 vnoremap <Home> ^
 vnoremap x "_x
+vnoremap <Leader>p "0p
+vnoremap <Leader>P "0P
+vnoremap gj :<C-u>action ActivateTerminalToolWindow<CR>
