@@ -62,7 +62,6 @@ nnoremap ge :<C-u>action EditorCodeBlockEnd<CR>
 inoremap <C-f> <C-r>
 inoremap <Home> <C-o>^
 
-" Visual mode mappings
 vnoremap <Home> ^
 vnoremap x "_x
 vnoremap <Leader>p "0p
