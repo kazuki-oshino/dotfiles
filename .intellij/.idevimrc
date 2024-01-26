@@ -52,8 +52,8 @@ nnoremap x "_x
 nnoremap <Leader>k :<C-u>action ShowHoverInfo<CR>
 nnoremap gi :<C-u>action GotoImplementation<CR>
 nnoremap gt :<C-u>action GotoTypeDeclaration<CR>
-nnoremap [g :<C-u>action VcsShowPrevChangeMarker<CR>
-nnoremap ]g :<C-u>action VcsShowNextChangeMarker<CR>
+nnoremap g[ :<C-u>action VcsShowPrevChangeMarker<CR>
+nnoremap g] :<C-u>action VcsShowNextChangeMarker<CR>
 nnoremap ga :<C-u>action ShowIntentionActions<CR>
 nnoremap gj :<C-u>action ActivateTerminalToolWindow<CR>
 nnoremap gs :<C-u>action EditorCodeBlockStart<CR>
