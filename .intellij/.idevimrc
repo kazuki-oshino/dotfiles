@@ -51,6 +51,7 @@ nnoremap <Home> ^
 nnoremap x "_x
 nnoremap <Leader>k :<C-u>action ShowHoverInfo<CR>
 nnoremap gi :<C-u>action GotoImplementation<CR>
+nnoremap gm :<C-u>action GotoSuperMethod<CR>
 nnoremap gt :<C-u>action GotoTypeDeclaration<CR>
 nnoremap g[ :<C-u>action VcsShowPrevChangeMarker<CR>
 nnoremap g] :<C-u>action VcsShowNextChangeMarker<CR>
