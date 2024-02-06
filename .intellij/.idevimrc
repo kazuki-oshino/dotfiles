@@ -7,6 +7,7 @@
 set scrolloff=5
 set history=200
 
+set number relativenumber
 set incsearch
 set hlsearch
 nnoremap <Esc><Esc> :nohlsearch<CR><ESC>
@@ -14,7 +15,6 @@ set ignorecase
 set smartcase
 set WHICHWrap=b,s,h,l,<,>,[,],~
 set showcmd
-set number relativenumber
 set autoindent
 set clipboard+=unnamed
 
@@ -68,3 +68,7 @@ vnoremap x "_x
 vnoremap <Leader>p "0p
 vnoremap <Leader>P "0P
 vnoremap gj :<C-u>action ActivateTerminalToolWindow<CR>
+xnoremap p "_dp
+xnoremap P "_dP
+xnoremap <Leader>p "_d"0p
+xnoremap <Leader>P "_d"0P
