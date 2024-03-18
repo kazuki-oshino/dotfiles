@@ -29,7 +29,7 @@ map <Leader>l <Plug>(easymotion-bd-jk)
 
 Plug 'machakann/vim-highlightedyank'
 let g:highlightedyank_highlight_duration = "200"
-let g:highlightedyank_highlight_color = "rgba(0, 240, 170, 155)"
+let g:highlightedyank_highlight_color = "rgba(255, 20, 147, 155)"
 
 Plug 'tpope/vim-commentary'
 set keep-english-in-normal
