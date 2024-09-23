@@ -46,6 +46,7 @@ nnoremap <Leader>P "0P
 nnoremap <Space> <Nop>
 nnoremap <C-o> :<C-u>action Back<CR>
 nnoremap <C-i> :<C-u>action Forward<CR>
+nnoremap <C-u> <C-r>
 nnoremap cre :<C-u>action RenameElement<CR>
 nnoremap <Home> ^
 nnoremap x "_x
@@ -59,6 +60,8 @@ nnoremap ga :<C-u>action ShowIntentionActions<CR>
 nnoremap gj :<C-u>action ActivateTerminalToolWindow<CR>
 nnoremap gs :<C-u>action EditorCodeBlockStart<CR>
 nnoremap ge :<C-u>action EditorCodeBlockEnd<CR>
+nnoremap M `
+nnoremap ` M
 
 inoremap <C-f> <C-r>
 inoremap <Home> <C-o>^
