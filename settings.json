@@ -1,0 +1,61 @@
+{
+    "window.commandCenter": true,
+    "files.autoSave": "afterDelay",
+    "editor.accessibilityPageSize": 13,
+    "editor.fontSize": 14,
+    "editor.lineNumbers": "relative",
+    "vscode-neovim.neovimExecutablePaths.darwin": "/opt/homebrew/bin/nvim",
+    "vscode-neovim.neovimInitVimPaths.darwin": "${HOME}/.config/nvim/init.lua",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "go.toolsManagement.autoUpdate": true,
+    "git.autofetch": true,
+    "workbench.activityBar.orientation": "vertical",
+    "git.confirmSync": false,
+    "git.replaceTagsWhenPull": true,
+    "gitlens.currentLine.enabled": true,
+    "gitlens.codeLens.authors.enabled": false,
+    "workbench.colorTheme": "Noctis Obscuro",
+    "workbench.colorCustomizations": {
+        "editorIndentGuide.background1": "#8b008b",
+        "editorIndentGuide.background2": "#6f6ff9",
+        "editorIndentGuide.background3": "#228b22",
+        "editorIndentGuide.background4": "#ffd700",
+        "editorIndentGuide.background5": "#ff4500",
+        "editorIndentGuide.background6": "#b22222",
+        "editorIndentGuide.activeBackground1": "#fff",
+        "editorIndentGuide.activeBackground2": "#fff",
+        "editorIndentGuide.activeBackground3": "#fff",
+        "editorIndentGuide.activeBackground4": "#fff",
+        "editorIndentGuide.activeBackground5": "#fff",
+        "editorIndentGuide.activeBackground6": "#fff",
+        "editor.selectionBackground": "#334B61"
+    },
+    "gitlens.codeLens.enabled": false,
+    "gitlens.statusBar.enabled": false,
+    "redhat.telemetry.enabled": true,
+    "git.openRepositoryInParentFolders": "never",
+    "go.inlayHints.constantValues": true,
+    "gopls": {
+        "ui.semanticTokens": true
+    },
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        "[ ]",
+        "[x]",
+    ],
+    "todo-tree.general.showActivityBarBadge": true,
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "type": "text-and-comment",
+            "foreground": "#FFFF99",
+            "background": "#334B61",
+        }
+    },
+    "todo-tree.highlights.highlightDelay": 200
+}
