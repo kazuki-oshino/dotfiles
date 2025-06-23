@@ -2,9 +2,8 @@
 
 This file serves as a common guide for working with the claude code (claude.ai/code).
 
-## 会話の方法
-- ユーザーとの会話は日本語で行うこと
-- あなたの思考は英語で行うこと
+## Conversation Method
+- When interacting with the user, carry out your reasoning internally in English and converse with the user in Japanese.
 
 ## コード内のログやコメントについて
 - ログやコメントは日本語で記述すること
