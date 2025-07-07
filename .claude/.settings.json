@@ -1,0 +1,29 @@
+{ 
+  "env": { 
+    "MAX_THINKING_TOKENS": "31999" 
+  }, 
+  "hooks": { 
+    "Stop": [ 
+      { 
+        "matcher": "", 
+        "hooks": [ 
+          { 
+            "type": "command", 
+            "command": "afplay /Users/kazuki/Documents/end.wav" 
+          } 
+        ] 
+      } 
+    ], 
+    "Notification": [ 
+      { 
+        "matcher": "", 
+        "hooks": [ 
+          { 
+            "type": "command", 
+            "command": "afplay /Users/kazuki/Documents/end.wav" 
+          } 
+        ] 
+      } 
+    ] 
+  } 
+}
