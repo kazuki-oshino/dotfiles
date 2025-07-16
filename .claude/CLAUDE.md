@@ -5,6 +5,13 @@ This file serves as a common guide for working with the claude code (claude.ai/c
 ## Conversation Method
 - 会話は日本語で行うこと
 
+## Web Search
+Use gemini CLI instead of built-in WebSearch tool:
+```
+bash gemini --prompt "WebSearch: <query>"
+```
+Always use this command for web searches.
+
 ## コード内のログやコメントについて
 - ログやコメントは日本語で記述すること
 
