@@ -11,6 +11,7 @@ Use gemini CLI instead of built-in WebSearch tool:
 bash gemini --prompt "WebSearch: <query>"
 ```
 Always use this command for web searches.
+実装中に解決できないことがあれば、まずはこのコマンドを使って情報を検索すること。
 
 ## コード内のログやコメントについて
 - ログやコメントは日本語で記述すること
